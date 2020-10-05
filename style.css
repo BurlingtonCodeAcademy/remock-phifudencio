@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap");
+/*Concertar right side, bottom too big
+Find a way to push the itens to the top !*/
+/* SETS ALL TEXT TO THIS FONT*/
+* {
+  font-family: "Secular One", sans-serif;
+}
+/* Start of front page */
+h1#main {
+  margin-top: 0;
+  text-align: center;
+  font-size: 85px;
+  letter-spacing: 3px;
+  font-family: "Secular One", sans-serif;
+  color: coral;
+}
+
+header p {
+  /*STYLING THE TEXT ON HEADER*/
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 20px;
+  font-family: "Secular One", sans-serif;
+}
+.image_row {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  /* ALL 3 IMAGES AT THE HOME PAGE*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  box-shadow: 0 25px 50px rgb(158, 158, 158);
+  transition: transform 0.2s ease-out;
+  border-radius: 12px;
+}
+.row_txt {
+  /* SET THE TEXT  UNDER THE PICTURES*/
+  display: flex;
+  font-family: "Secular One", sans-serif;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.column:hover {
+  /* ANIMATION OF THE IMAGES */
+  transform: scale(1.1);
+}
+#image {
+  /* SIZE AND STYLE THE BORDER */
+  width: 350px;
+  border-radius: 12px;
+}
+
+#title {
+  /* SETS ALL TITLES */
+  text-align: center;
+  padding-top: 100px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-family: "Secular One", sans-serif;
+}
+/* THIS SECTION IS FOR ALL THE LINES DISPLAYED IN THE PAGE*/
+.line {
+  border: solid 1px;
+  border-color: rgba(221, 221, 221, 0.432);
+  border-left: none;
+  border-right: none;
+  width: 70vw;
+  height: 2px;
+  margin: 2rem auto;
+}
+.line2 {
+  border: solid 1px;
+  border-color: rgba(221, 221, 221, 0.432);
+  border-left: none;
+  border-right: none;
+  width: 100vw;
+  height: 5px;
+  margin: 2rem auto;
+}
+
+.line3 {
+  display: flex;
+  border: solid 3px;
+  border-color: rgba(221, 221, 221, 0.432);
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 30vw;
+  height: 5px;
+  margin: 2rem 100px;
+  padding-top: 10px;
+}
+
+/*DESING THE BUTTON AND ANIMATION HOVER */
+.button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 220px;
+  border: none;
+  margin: 2rem auto;
+  border-radius: 12px;
+  background-color: orangered;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+}
+.buttonb,
+.button2:hover {
+  transition: transform 0.3s ease-out;
+  transform: scale(1.1);
+}
+
+.quote {
+  /* SET THE BACKGROUND*/
+  background: black;
+  height: 500px;
+  border-radius: 12px;
+}
+.quote::before {
+  content: " ";
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 1px;
+  margin-top: 50px;
+  background-image: url("image/mario.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.quote h1 {
+  font-family: "Sansita Swashed", cursive;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  top: -310px;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 89, 0);
+  z-index: 2;
+  letter-spacing: 5px;
+  font-size: 95px;
+}
+.section2 {
+  display: flex;
+  justify-content: left;
+  padding-left: 200px;
+  text-align: left;
+}
+
+.section2 img {
+  position: relative;
+  width: 60vh;
+  height: 60vh;
+  border-radius: 12px;
+}
+h1.title1 {
+  padding-left: 200px;
+}
+h1.title {
+  padding-left: 200px;
+}
+.texto1 {
+  position: absolute;
+  left: 209px;
+  width: 570px;
+}
+
+.button2 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 220px;
+  border: none;
+  border-radius: 12px;
+  background-color: orangered;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 650px;
+  margin-left: 365px;
+}
+
+.right {
+  display: flex;
+  position: relative;
+  margin-left: 1250px;
+top: -3000px;
+  margin-top: 75px;
+ align-content: flex-start;
+}
+#title2 {
+  display: flex;
+  position: relative;
+  margin-left: 1230px;
+ top: -3065px;
+ justify-content: center;
+}
+.texto2 {
+  display: flex;
+  position: relative;
+  margin-left: 1230px;
+ top: -3000px;
+  position: relative;
+  width: 250px;
+  justify-content: center;
+}
+.date { 
+  display: flex;
+  margin-top: 5vh;
+  margin-bottom: 8vh;
+  width: 10vw;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: rgba(1, 24, 98, 0.795);
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.952);
+  border: 1px solid;
+  border-color: rgb(2, 24, 97);
+}
+
