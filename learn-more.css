@@ -1,0 +1,306 @@
+body {
+  font-family: "Abril Fatface";
+  color: black;
+  font-size: 1em;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+button {
+  cursor: pointer;
+  height: 50px;
+  width: 60px;
+  border: none;
+  margin: 2rem auto;
+  border-radius: 12px;
+  background-color: orangered;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 50px;
+}
+.button-q {
+  background-color: rgb(252, 231, 223);
+}
+
+/* Section 1 */
+
+#section1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#wrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60vw;
+}
+
+.lineBreak {
+  border: solid 1px;
+  border-color: rgba(6, 60, 131, 0.432);
+  border-left: none;
+  border-right: none;
+  width: 60vw;
+  height: 5px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.line {
+  border: solid 1px;
+  border-color: orangered;
+  border-left: none;
+  border-right: none;
+  width: 60vw;
+  height: 5px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/*2nd section*/
+
+#section2 {
+  display: flex;
+  justify-content: center;
+}
+
+#wrapper2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Left Column */
+
+#left_column {
+  width: 40vw;
+  margin-right: 50px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.wideImage {
+  width: 40vw;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  box-shadow: 0 22px 30px -6px rgb(0, 0, 0);
+}
+
+#right_column {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Learmore style*/
+.learmore {
+  font-size: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  width: auto;
+  color: black;
+  padding: 10px;
+  border: 1px solid;
+  background-color: orangered;
+  transition-duration: 0.25s;
+  transition-timing-function: linear;
+}
+
+.lineBreakLeft {
+  border: solid 2px;
+  border-color: orangered;
+  border-left: none;
+  border-right: none;
+  width: 40vw;
+  height: 5px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+/* Right Column Date Blurbs */
+
+.date {
+  display: flex;
+  margin-top: 5vh;
+  margin-bottom: 8vh;
+  width: 10vw;
+  justify-content: center;
+  border-radius: 5%;
+  background-color: orangered;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.952);
+  border: 1px solid;
+  border-color: orangered;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.date:hover {
+  background-color: rgba(46, 58, 99, 0.76);
+}
+
+.right_line {
+  border: solid;
+  border-color: orangered;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 20vw;
+  height: 5px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+#line_break {
+  border: solid;
+  border-color: orangered;
+  border-left: none;
+  border-right: none;
+  width: 20vw;
+  height: 5px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+/* Right Column wrapped pictures */
+
+.wrappedPic {
+  float: left;
+  width: 10vw;
+  height: 10vw;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 0 22px 30px -6px rgb(0, 0, 0);
+}
+
+.wrappedPicButton {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12vw;
+  background-color: rgba(6, 35, 131, 0.466);
+  padding: 5px;
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.952);
+  border: 1px solid;
+  border-color: rgb(2, 24, 97);
+  font-size: 0.75rem;
+}
+
+/* FOOOOTER */
+
+#footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: rgb(255, 99, 42);
+  background-image: url("image/pachead.png");
+  margin-top: 50px;
+  box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.849);
+}
+
+#footerWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  width: auto;
+}
+
+#footerTitle {
+  margin-top: 40px;
+}
+
+#textBox {
+  min-height: 8rem;
+  margin-bottom: 1rem;
+  resize: none;
+}
+
+#sendMessage {
+  margin-top: 0.1rem;
+}
+
+#formDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#firstLastName {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+#firstName {
+  margin-right: 10px;
+  resize: none;
+}
+
+#email {
+  resize: none;
+}
+
+#bottomRow {
+  display: flex;
+}
+
+#contentHeader {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+#contactInfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30vw;
+  margin-left: 1rem;
+}
+
+#contactTableWrapper {
+  display: flex;
+}
+
+#contactColumLeft {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+}
+
+#contactColumRight {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.icon {
+  vertical-align: middle;
+  width: 0.9rem;
+  height: 0.9rem;
+}
+
+.contact-item {
+  margin: 5px;
+}
