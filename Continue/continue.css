@@ -1,15 +1,20 @@
-body {
-  font-family: "Abril Fatface";
-  color: black;
-  font-size: 1em;
-  margin: 0px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap");
 
+* {
+  font-family: "Secular One", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+}
 a {
+  /*a tags styling*/
   text-decoration: none;
   color: white;
 }
 button {
+  /*button styling*/
   cursor: pointer;
   height: 50px;
   width: 60px;
@@ -22,6 +27,7 @@ button {
   margin-left: 50px;
 }
 .button-q {
+  /*specific button styling*/
   background-color: rgb(252, 231, 223);
 }
 
@@ -41,8 +47,9 @@ button {
 }
 
 .lineBreak {
+  /*Line styling */
   border: solid 1px;
-  border-color: rgba(6, 60, 131, 0.432);
+  border-color: orangered;
   border-left: none;
   border-right: none;
   width: 60vw;
@@ -52,6 +59,7 @@ button {
 }
 
 .line {
+  /*Line styling*/
   border: solid 1px;
   border-color: orangered;
   border-left: none;
@@ -70,6 +78,7 @@ button {
 }
 
 #wrapper2 {
+  /*contariner of section 2*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -87,6 +96,7 @@ button {
 }
 
 .wideImage {
+  /*wide imaga styling*/
   width: 40vw;
   height: auto;
   margin-top: 30px;
@@ -95,6 +105,7 @@ button {
 }
 
 #right_column {
+  /*Right side styling*/
   width: 20vw;
   display: flex;
   flex-direction: column;
@@ -117,6 +128,7 @@ button {
 }
 
 .lineBreakLeft {
+  /*Line desing*/
   border: solid 2px;
   border-color: orangered;
   border-left: none;
@@ -130,6 +142,7 @@ button {
 /* Right Column Date Blurbs */
 
 .date {
+  /*Date desing*/
   display: flex;
   margin-top: 5vh;
   margin-bottom: 8vh;
@@ -162,6 +175,7 @@ button {
 }
 
 #line_break {
+  /*Another line desing*/
   border: solid;
   border-color: orangered;
   border-left: none;
@@ -185,6 +199,7 @@ button {
 }
 
 .wrappedPicButton {
+  /* Button of the wrapped pic*/
   text-align: center;
   display: flex;
   justify-content: center;
@@ -213,6 +228,7 @@ button {
 }
 
 #footerWrapper {
+  /* Container off the footer*/
   display: flex;
   justify-content: space-between;
   margin: 30px;
@@ -220,20 +236,22 @@ button {
 }
 
 #footerTitle {
+  /* This is for the title*/
   margin-top: 40px;
 }
 
 #textBox {
   min-height: 8rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; /*This is for the textbox class*/
   resize: none;
 }
 
 #sendMessage {
-  margin-top: 0.1rem;
+  margin-top: 0.1rem; /*button to send Message*/
 }
 
 #formDiv {
+  /*This is for the form */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -252,6 +270,7 @@ button {
 }
 
 #email {
+  /**/
   resize: none;
 }
 
@@ -260,12 +279,14 @@ button {
 }
 
 #contentHeader {
+  /**/
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 1rem;
 }
 
 #contactInfo {
+  /*This is for the contact styling*/
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -274,33 +295,39 @@ button {
 }
 
 #contactTableWrapper {
+  /*This is for the contact styling*/
   display: flex;
 }
 
 #contactColumLeft {
+  /*This is for the contact styling*/
   display: flex;
   flex-direction: column;
   width: 15vw;
 }
 
 #contactColumRight {
+  /*This is for the contact styling*/
   display: flex;
   flex-direction: column;
   width: 15vw;
 }
 
 .iconContainer {
+  /*This is for the icons*/
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
 .icon {
+  /*This is for the icons*/
   vertical-align: middle;
   width: 0.9rem;
   height: 0.9rem;
 }
 
 .contact-item {
+  /*This is for the icons*/
   margin: 5px;
 }
